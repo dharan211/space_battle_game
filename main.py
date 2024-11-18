@@ -3,7 +3,6 @@ import os
 pygame.font.init()
 pygame.mixer.init()
 
-#from pygments.styles.paraiso_light import YELLOW
 
 WIDTH, HEIGHT = 900,400
 SPACESHIP_WIDTH, SPACESHIP_HEIGHT = 55, 40
