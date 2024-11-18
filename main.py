@@ -7,7 +7,7 @@ pygame.mixer.init()
 WIDTH, HEIGHT = 900,400
 SPACESHIP_WIDTH, SPACESHIP_HEIGHT = 55, 40
 WIN = pygame.display.set_mode((WIDTH,HEIGHT))
-pygame.display.set_caption("First Game OUT !!")
+pygame.display.set_caption("SPACE BATTLE !!")
 WHITE = (255,255,255)
 VEL = 5
 BULLET_VEL = 7
@@ -30,8 +30,6 @@ WINNER_FONT = pygame.font.SysFont('comicsans', 100)
 
 
 
-
-#YELLOW_SPACESHIP_IMAGE = pygame.image.load(os.path.join('Assets', 'spaceship_yellow.png'))
 YELLOW_SPACESHIP_IMAGE = pygame.image.load(os.path.join('..', 'Assets', 'spaceship_yellow.png'))
 YELLOW_SPACESHIP = pygame.transform.rotate(pygame.transform.scale(
     YELLOW_SPACESHIP_IMAGE, (SPACESHIP_WIDTH, SPACESHIP_HEIGHT )), 90)
